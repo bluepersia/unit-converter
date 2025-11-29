@@ -4,22 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Unit Converter</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/blocks/unit-converter.css" />
+    <link rel="stylesheet" href="css/blocks/unit-output.css" />
   </head>
   <body>
     <main>
       <section class="unit-converter">
         <div class="unit-converter__content">
-          <h1 class="unit-converter__title">Metric/Imperial Unit Conversion</h1>
-          <input
-            type="number"
-            class="unit-converter__input"
-            placeholder="20"
-            value="20"
-          />
-          <button class="unit-converter__button">Convert</button>
+          <h1 class="unit-converter__title u-fw-800">
+            Metric/Imperial Unit Conversion
+          </h1>
+          <form class="unit-converter__form">
+            <input
+              type="number"
+              class="unit-converter__input u-fw-800"
+              placeholder="20"
+              value="20"
+            />
+            <button class="unit-converter__button">Convert</button>
+          </form>
         </div>
         <section class="unit-output">
-          <h2 class="unit-output__title">Output</h2>
+          <h2 class="unit-output__title sr-only">Output</h2>
           <ul class="unit-output__list">
             <li class="unit-output__item">
               <span class="unit-output__label">Length (Meter/Feet)</span>

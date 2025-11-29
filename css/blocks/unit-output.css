@@ -1,0 +1,29 @@
+.unit-output {
+  background-color: rgba(31, 41, 55, 1);
+  padding: 2.57rem 1.78rem;
+}
+
+.unit-output__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.64rem;
+  list-style: none;
+  padding-left: 0;
+}
+
+.unit-output__item {
+  background-color: rgba(39, 53, 73, 1);
+  padding: 2.14rem 1.32rem;
+}
+
+.unit-output__label {
+  display: block;
+  color: rgba(204, 193, 255, 1);
+  font-size: 1.42em;
+  margin-bottom: 0.64rem;
+}
+
+.unit-output__value {
+  display: block;
+  color: rgba(255, 255, 255, 1);
+}
