@@ -1,0 +1,45 @@
+.unit-converter {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.unit-converter__content {
+  background-color: rgba(105, 67, 255, 1);
+  color: white;
+  padding: 2.35rem 3.5rem;
+}
+
+.unit-converter__title {
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 2.14rem;
+}
+
+.unit-converter__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.unit-converter__input {
+  background-color: transparent;
+  text-align: center;
+  font-size: 4em;
+  font-family: inherit;
+  width: 8.35rem;
+  height: 5.92rem;
+  color: white;
+  border-radius: 0.35rem;
+  border: solid 0.15rem rgba(178, 149, 255, 1);
+  margin-bottom: 1.85rem;
+}
+
+.unit-converter__button {
+  padding: 0.71rem 1.96rem;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 0.35rem;
+  font-size: 1.14em;
+  border: none;
+  color: rgba(61, 61, 61, 1);
+  cursor: pointer;
+}
