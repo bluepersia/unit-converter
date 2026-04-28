@@ -1,0 +1,28 @@
+{
+  "name": "unit-converter",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/bluepersia/unit-converter#readme",
+  "bugs": {
+    "url": "https://github.com/bluepersia/unit-converter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluepersia/unit-converter.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "eslint": "^10.2.1",
+    "globals": "^17.5.0",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.59.1"
+  }
+}
