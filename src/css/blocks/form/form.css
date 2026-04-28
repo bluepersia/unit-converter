@@ -1,0 +1,13 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form__label {
+  display: none;
+}
+
+.form__input {
+  margin-bottom: 1.78rem;
+}
