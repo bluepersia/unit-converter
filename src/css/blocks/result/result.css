@@ -1,0 +1,15 @@
+.result {
+  background-color: #273549;
+  padding: 2.21rem 1.32em;
+}
+
+.result__title {
+  color: #ccc1ff;
+  font-size: 1.42rem;
+  font-weight: 600;
+  margin-bottom: 0.64rem;
+}
+
+.result__value {
+  color: white;
+}

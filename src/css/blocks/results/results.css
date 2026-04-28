@@ -1,0 +1,17 @@
+.results {
+  text-align: center;
+  background-color: #1f2937;
+  padding: 2.5rem 1.78rem;
+}
+
+.results__title {
+  display: none;
+}
+
+.results__list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.64rem;
+}
