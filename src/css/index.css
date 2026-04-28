@@ -1,0 +1,23 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+button,
+input {
+  font-size: inherit;
+  font-family: inherit;
+  color: inherit;
+  display: block;
+}
