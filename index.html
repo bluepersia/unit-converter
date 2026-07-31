@@ -19,10 +19,52 @@
     <link rel="stylesheet" href="src/css/utilities.css" />
 
     <!-- Blocks -->
+    <link rel="stylesheet" href="src/css/blocks/unit-conv/unit-conv.css" />
+    <link rel="stylesheet" href="src/css/blocks/form/form.css" />
+    <link rel="stylesheet" href="src/css/blocks/conv-item/conv-item.css" />
   </head>
 
   <body>
-    <h1>Hello World</h1>
-    <p>Some lorem ipsum text</p>
+    <main class="unit-conv" id="unit-conv">
+      <header class="unit-conv__header">
+        <h1 class="unit-conv__title">Metric/Imperial Unit Conversion</h1>
+        <form class="form unit-conv__form" data-form>
+          <label for="unit-conv-value" class="sr-only">Value to Convert</label>
+          <input
+            class="form__input form__input--number"
+            id="unit-conv-value"
+            type="number"
+            min="1"
+            max="99"
+            name="value"
+            value="20"
+          />
+          <button class="form__btn">Convert</button>
+        </form>
+      </header>
+
+      <dl class="unit-conv__list">
+        <div class="conv-item">
+          <dt class="conv-item__title">Length (Meter/Feet)</dt>
+          <dd class="conv-item__value" data-length>
+            20 meters = 65.616 feet | 20 feet = 6.096 meters
+          </dd>
+        </div>
+        <div class="conv-item">
+          <dt class="conv-item__title">Volume (Liters/Gallons)</dt>
+          <dd class="conv-item__value" data-volume>
+            20 liters = 5.284 gallons | 20 gallons = 75.708 liters
+          </dd>
+        </div>
+        <div class="conv-item">
+          <dt class="conv-item__title">Mass (Kilograms/Pounds)</dt>
+          <dd class="conv-item__value" data-mass>
+            20 kilos = 44.092 pounds | 20 pounds = 9.072 kilos
+          </dd>
+        </div>
+      </dl>
+    </main>
+
+    <script src="dist/scripts/index.js" type="module"></script>
   </body>
 </html>

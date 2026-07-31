@@ -1,3 +1,3 @@
-const message = "Hello World";
+import UnitConv from "./components/UnitConv.js";
 
-console.log(message);
+UnitConv(document.getElementById("unit-conv")!);

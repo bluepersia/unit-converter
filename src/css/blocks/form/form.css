@@ -1,0 +1,24 @@
+.form__input {
+  border: solid 2px #b295ff;
+  font-weight: var(--font-weight-500);
+  font-size: var(--font-size-500);
+  text-align: center;
+}
+
+.form__input--number {
+  width: 117px;
+  height: 83px;
+}
+
+.form__btn {
+  background-color: var(--color-white);
+  color: var(--color-gray);
+  padding: 0.56em 1.71em;
+  border-radius: var(--radius-100);
+  transition: all 300ms;
+}
+
+.form__btn:hover {
+  background-color: var(--color-gray);
+  color: var(--color-white);
+}

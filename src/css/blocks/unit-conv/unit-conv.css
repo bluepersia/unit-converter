@@ -1,0 +1,32 @@
+.unit-conv {
+  text-align: center;
+}
+
+.unit-conv__header {
+  background-color: var(--color-purple);
+  color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.unit-conv__title {
+  font-size: var(--font-size-400);
+  margin-bottom: 1.875rem;
+}
+
+.unit-conv__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1.56rem;
+}
+
+.unit-conv__list {
+  background-color: var(--color-dark-gray-blue);
+  padding: 2.25rem 1.56rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.43rem;
+}
